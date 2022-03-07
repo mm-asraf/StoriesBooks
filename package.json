@@ -4,7 +4,7 @@
   "description": "app to create public and private stories",
   "main": "app.js",
   "scripts": {
-    "start":"node app.js",
+    "start":"cross-env NODE_ENV=production node app",
     "dev":"cross-env NODE_ENV=development nodemon app"
   },
   "author": "mahboob-asraf",
@@ -22,7 +22,7 @@
     "passport": "^0.5.2",
     "passport-google-oauth20": "^2.0.0"
   },
-  "engines": {
+   "engines": {
     "node":"16.13.1",
     "npm":"8.3.0"
   },
