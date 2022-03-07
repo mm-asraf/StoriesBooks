@@ -1,1 +1,1 @@
-web: node app.js
+web: process.env.NODE_ENV app.js
